@@ -64,6 +64,7 @@ git clone https://github.com/sengka/MemeKanseriDestek.git
 cd MemeKanseriDestek
 npm install
 npm start
+npx expo start
 ```
 
 Ardından Expo Go uygulaması ile QR kodu okutarak çalıştırabilirsiniz.
