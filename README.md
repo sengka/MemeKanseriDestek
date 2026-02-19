@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# MemeKanseriDestek
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MemeKanseriDestek, meme kanseri konusunda farkındalık oluşturmak ve kullanıcıların bilgilendirici içeriklere kolay erişmesini sağlamak amacıyla geliştirilmiş bir mobil uygulamadır.
 
-## Get started
+Bu depo uygulamanın kaynak kodlarını, demo videosunu ve uygulama çıktısını (APK) içerir.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Uygulamayı İndir (APK)
 
-2. Start the app
+Uygulamanın derlenmiş Android sürümünü aşağıdaki bağlantılardan indirebilirsiniz:
 
-   ```bash
-   npx expo start
-   ```
+* Repo içindeki APK dosyası:
 
-In the output, you'll find options to open the app in a
+  ```
+  /application-25231b8e-761c-42d2-85c0-ec9eee7091bc.apk
+  ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Expo build bağlantısı:
+  [https://expo.dev/accounts/sengka/projects/MemeKanseriDestek/builds/25231b8e-761c-42d2-85c0-ec9eee7091bc](https://expo.dev/accounts/sengka/projects/MemeKanseriDestek/builds/25231b8e-761c-42d2-85c0-ec9eee7091bc)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> Not: APK yüklerken Android cihazınızda "Bilinmeyen kaynaklardan yükleme" iznini açmanız gerekebilir.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Demo Video
 
-```bash
-npm run reset-project
+Uygulamanın kullanımını gösteren video depoda bulunmaktadır:
+
+```
+demo.mp4
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Videoda uygulama arayüzü ve temel kullanım akışı gösterilmektedir.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Proje Amacı
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Bu proje aşağıdaki hedeflerle geliştirilmiştir:
 
-## Join the community
+* Meme kanseri hakkında temel bilgilendirme sağlamak
+* Kullanıcıların farkındalığını artırmak
+* Mobil platform üzerinden erişilebilir bir bilgi kaynağı sunmak
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Teknolojiler
+
+Proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
+
+* React Native
+* Expo
+* JavaScript / TypeScript
+
+---
+
+## Kurulum (Geliştiriciler için)
+
+Projeyi yerelde çalıştırmak için:
+
+```bash
+git clone https://github.com/sengka/MemeKanseriDestek.git
+cd MemeKanseriDestek
+npm install
+npm start
+```
+
+Ardından Expo Go uygulaması ile QR kodu okutarak çalıştırabilirsiniz.
+
+---
+
+## Lisans
+
+Bu proje eğitim amaçlı geliştirilmiştir.
+
